@@ -166,3 +166,14 @@ qqPlot(c$VitC)
 
 # Son muy similares por lo que este conjunto de datos sigue una distribución Gaussiana
 ```
+
+## Ejercicio 6
+
+6. Una representación habitual, para determinar la distribución de los datos de una variable cuantitativa
+es el histograma (hist). Determina, de forma aproximada, utilizando el histograma, si hay diferencias
+entre los contenidos de vitamina C (VitC), para las diferentes variedades de calabaza (variable Cult),
+en el conjunto de datos cabbages.
+
+```{r}
+hist(c$VitC[c$Cult])
+```
